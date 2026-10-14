@@ -1,6 +1,6 @@
 import students from "./data";
-import Header from "./components/Header";
-import StudentList from "./components/StudentList";
+import Header from "./componetns/Header";
+import StudentList from "./componetns/StudentList";
 import "./App.css";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
         <div className="app">
             <Header
                 batchName={batchName}
-                total={students.length}
+                totalStudents={students.length}
             />
 
             <main className="container">
